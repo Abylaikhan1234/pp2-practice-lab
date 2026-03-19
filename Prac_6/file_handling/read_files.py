@@ -1,4 +1,6 @@
-with open("sample.txt", "r") as f:
-    content = f.read()
+# Read and display file contents
+"""with open("sample.txt", "r") as file:
+    content = file.read()
 
-print(content)
+print("File contents:")
+print(content)"""

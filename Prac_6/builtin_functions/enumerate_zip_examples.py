@@ -1,17 +1,31 @@
+"""# enumerate(): index + value
+fruits = ["apple", "banana", "cherry"]
+
+for index, fruit in enumerate(fruits, start=1):
+    print(index, fruit)
+
+# zip(): pair elements from two lists
 names = ["Alice", "Bob", "Charlie"]
-scores = [85, 90, 95]
+scores = [85, 90, 78]
 
-# enumerate
-for i, name in enumerate(names):
-    print(i, name)
-
-# zip
 for name, score in zip(names, scores):
-    print(name, score)
+    print(f"{name} scored {score}")"""
 
-# type checking and conversion
-value = "123"
+"""value = "123"
 
-if isinstance(value, str):
-    num = int(value)
-    print("Converted:", num)
+# Type checking
+print(type(value))
+print(isinstance(value, str))
+
+# Conversions
+num = int(value)
+print("Converted to int:", num)
+
+float_num = float(value)
+print("Converted to float:", float_num)
+
+# List to string
+numbers = [1, 2, 3]
+string_numbers = list(map(str, numbers))
+joined = ", ".join(string_numbers)
+print("Joined string:", joined)"""

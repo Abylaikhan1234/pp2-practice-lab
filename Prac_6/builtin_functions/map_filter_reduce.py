@@ -1,15 +1,11 @@
-from functools import reduce
+"""# Sample list
+numbers = [1, 2, 3, 4, 5, 6]
 
-nums = [1, 2, 3, 4, 5]
-
-# map
-squared = list(map(lambda x: x**2, nums))
+# map(): square each number
+squared = list(map(lambda x: x**2, numbers))
 print("Squared:", squared)
 
-# filter
-even = list(filter(lambda x: x % 2 == 0, nums))
-print("Even:", even)
+# filter(): get even numbers
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+print("Even numbers:", evens)"""
 
-# reduce
-sum_all = reduce(lambda x, y: x + y, nums)
-print("Sum:", sum_all)
